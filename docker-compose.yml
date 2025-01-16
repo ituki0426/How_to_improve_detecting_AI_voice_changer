@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  ubuntu_cuda_12_4_dev:
+    restart: always
+    build: .
+    container_name: 'ubuntu_cuda_12_4_dev'
+    working_dir: '/root/workspace/'
+    tty: true
+    volumes:
+      - .:/root/workspace/
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    runtime: nvidia

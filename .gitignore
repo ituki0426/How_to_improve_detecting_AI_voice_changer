@@ -1,0 +1,5 @@
+/data
+venv
+.env
+src/wandb
+/src/ft-hubert-on-gtzan
