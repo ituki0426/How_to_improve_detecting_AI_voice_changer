@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.16)  16 FEB 2025 04:07
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2025.1.16)  16 FEB 2025 04:29
  restricted system commands enabled.
-**paper.tex
-(./paper.tex
+**manuscript.tex
+(./manuscript.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
 Lua module: luaotfload 2024-02-14 v3.28 Lua based OpenType font support
@@ -366,7 +366,12 @@ Package: luatexja-compat 2020-08-08 Compatibility with pTeX
 ))
 \jsc@mpt=\dimen159
 \jsc@mmm=\dimen160
+\ltjs@@magnify@font@calc=\luafunction72
 \jsc@smallskipamount=\skip49
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 10.12836pt on input line 416.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 416.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 9.24713pt on input line 416.
 \fullwidth=\dimen161
@@ -515,95 +520,72 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count298
+\Gm@cntv=\count299
+\c@Gm@tempcnt=\count300
+\Gm@bindingoffset=\dimen189
+\Gm@wd@mp=\dimen190
+\Gm@odd@mp=\dimen191
+\Gm@even@mp=\dimen192
+\Gm@layoutwidth=\dimen193
+\Gm@layoutheight=\dimen194
+\Gm@layouthoffset=\dimen195
+\Gm@layoutvoffset=\dimen196
+\Gm@dimlist=\toks28
+)
 (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip55
-\multirow@cntb=\count298
+\multirow@cntb=\count301
 \multirow@dima=\skip56
-\bigstrutjot=\dimen189
+\bigstrutjot=\dimen197
 )
 (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count299
-\lst@gtempboxa=\box73
-\lst@token=\toks28
-\lst@length=\count300
-\lst@currlwidth=\dimen190
-\lst@column=\count301
-\lst@pos=\count302
-\lst@lostspace=\dimen191
-\lst@width=\dimen192
-\lst@newlines=\count303
-\lst@lineno=\count304
-\lst@maxwidth=\dimen193
+) (./manuscript.aux)
+\openout1 = manuscript.aux
 
-(c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-)
-(c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count305
-\lst@skipnumbers=\count306
-\lst@framebox=\box74
-)
-(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
-))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
-
-(c:/texlive/2024/texmf-dist/tex/luatex/luatexja/patches/lltjp-listings.sty
-(c:/texlive/2024/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
-Package: luatexbase-cctb 2015/10/04 v1.3 luatexbase interface to LuaTeX (legacy
- subpackage) 
-)
-\ltj@lst@japanese@min=\count307
-\CatcodeTableLTJlistings=\catcodetable17
-\ltj@lst@frame@lslimit=\dimen194
-
-(c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\lst@WFtoken=\toks29
-\lst@WF=\write3
-)) (./paper.aux)
-\openout1 = paper.aux
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen195
-\scratchbox=\box75
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen196
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count302
+\scratchdimen=\dimen198
+\scratchbox=\box73
+\nofMPsegments=\count303
+\nofMParguments=\count304
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen199
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
+\everyMPtoPDFconversion=\toks30
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -613,326 +595,251 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count314
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=759.6886pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-64.65787pt
+* \headheight=18.25989pt
+* \headsep=16.80711pt
+* \topskip=11.6508pt
+* \footskip=28.45792pt
+* \marginparwidth=33.77032pt
+* \marginparsep=16.88516pt
+* \columnsep=16.88516pt
+* \skip\footins=14.60791pt plus 4.56497pt minus 1.82599pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 (load cache: extra_lmroman17-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 15.97903pt on input line 15.
+(Font)              scaled to size 15.97903pt on input line 28.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 15.97903pt on input line 15.
+(Font)              scaled to size 15.97903pt on input line 28.
 (load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 15.
+(Font)              scaled to size 11.09656pt on input line 28.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 15.
+(Font)              scaled to size 11.09656pt on input line 28.
+LaTeX Font Info:    Calculating math sizes for size <10.95593> on input line 28
+.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.54828pt on input line 15.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
-
+(Font)              scaled to size 7.76753pt on input line 28.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 5.54828pt on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 17.
+(Font)              scaled to size 13.31586pt on input line 28.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 17.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 17.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 17.
-(load cache: extra_haranoajigothic-medium.luc)(load cache: extra_lmsans12-regula
-r.luc)
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 23.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 23.
-(load cache: extra_lmroman10-bold.luc)
-LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 26.
-LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 26.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 37.
-(load cache: extra_lmsans10-regular.luc)
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.47299pt on input line 38.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 38.
-
-
-[1
-
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<./img/HuBERT.png, id=13, 279.29344pt x 210.7875pt>
-File: ./img/HuBERT.png Graphic file (type png)
-<use ./img/HuBERT.png>
-Package luatex.def Info: ./img/HuBERT.png  used on input line 90.
-(luatex.def)             Requested size: 199.16928pt x 150.31952pt.
-(load cache: extra_lmroman9-regular.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 91.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 91.
-
-
-[2] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-)
-
-[3<./img/HuBERT.png>]
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Overfull \hbox (8.89526pt too wide) in paragraph at lines 117--118
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (86.89606pt too wide) in paragraph at lines 118--119
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (14.89532pt too wide) in paragraph at lines 119--120
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (86.89606pt too wide) in paragraph at lines 120--121
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (62.89581pt too wide) in paragraph at lines 121--122
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Overfull \hbox (2.8952pt too wide) in paragraph at lines 137--138
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (8.89526pt too wide) in paragraph at lines 142--143
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (8.89526pt too wide) in paragraph at lines 146--147
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-
-[4]
-Overfull \hbox (8.89526pt too wide) in paragraph at lines 159--160
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (2.8952pt too wide) in paragraph at lines 177--178
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (8.89526pt too wide) in paragraph at lines 180--181
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (68.89587pt too wide) in paragraph at lines 183--184
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (32.89551pt too wide) in paragraph at lines 185--186
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (44.89563pt too wide) in paragraph at lines 188--189
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-
-[5]
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Overfull \hbox (62.89581pt too wide) in paragraph at lines 206--207
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (8.89526pt too wide) in paragraph at lines 208--209
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (68.89587pt too wide) in paragraph at lines 211--212
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (68.89587pt too wide) in paragraph at lines 215--216
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (20.89539pt too wide) in paragraph at lines 221--222
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (14.89532pt too wide) in paragraph at lines 222--223
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-
-[6]
-Overfull \hbox (20.89539pt too wide) in paragraph at lines 239--240
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (62.89581pt too wide) in paragraph at lines 244--245
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (62.89581pt too wide) in paragraph at lines 245--246
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (62.89581pt too wide) in paragraph at lines 246--247
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (74.89594pt too wide) in paragraph at lines 247--248
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (68.89587pt too wide) in paragraph at lines 250--251
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (8.89526pt too wide) in paragraph at lines 252--253
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (140.8966pt too wide) in paragraph at lines 253--254
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (104.89624pt too wide) in paragraph at lines 255--256
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (104.89624pt too wide) in paragraph at lines 258--259
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (8.89526pt too wide) in paragraph at lines 264--265
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (68.89587pt too wide) in paragraph at lines 266--267
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (14.89532pt too wide) in paragraph at lines 267--268
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (68.89587pt too wide) in paragraph at lines 269--270
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-
-[7]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[8]
-
-[9]
-
-[10]
-
-[11] (./paper.aux)
+(Font)              scaled to size 13.31586pt on input line 28.
+
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ]
+    
+? 
+(./manuscript.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
-)
+
+! You can't use `\end' in internal vertical mode.
+\enddocument ...cument/end}\deadcycles \z@ \@@end 
+                                                  
+l.28 ]
+    
+? 
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 31.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 31.
+(load cache: extra_haranoajigothic-medium.luc)(load cache: extra_lmsans12-regula
+r.luc)
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 37.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 37.
+(load cache: extra_lmsans10-regular.luc)(load cache: extra_lmroman10-bold.luc)
+LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 10.12836pt on input line 40.
+LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 10.12836pt on input line 40.
+\citation{HuBERT}
+
+LaTeX Warning: Citation `HuBERT' on page 1 undefined on input line 47.
+
+LaTeX Font Info:    Calculating math sizes for size <9.12994> on input line 52.
+
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.47296pt on input line 52.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 52.
+
+
+<./img/HuBERT.png, id=1, 279.29344pt x 210.7875pt>
+File: ./img/HuBERT.png Graphic file (type png)
+<use ./img/HuBERT.png>
+Package luatex.def Info: ./img/HuBERT.png  used on input line 104.
+(luatex.def)             Requested size: 199.16928pt x 150.31952pt.
+(load cache: extra_lmroman9-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 105.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 105.
+LaTeX Font Info:    Calculating math sizes for size <8.21695> on input line 105
+.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.5> not available
+(Font)              size <5> substituted on input line 105.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.5> not available
+(Font)              size <5> substituted on input line 105.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.5> not available
+(Font)              size <5> substituted on input line 105.
+
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 5.82565pt on input line 105.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.16121pt on input line 105.
+
+
+[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+
+\@writefile{toc}{\contentsline {section}{\numberline {1}はじめに}{1}{}\prot
+ected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}HuBERTのモデル構
+造と数式の詳細解説}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}モデル構造
+の概要}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}数式の詳細}{1
+}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}クラスタ
+リングを用いた隠れ単位の生成}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}マスクさ
+れた予測の学習}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3}損失関数}
+{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}モデル構成}{1
+}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}実験}{1}{}\protected@
+file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}実験設定}{1}{}
+\protected@file@percent }
+]
+
+\citation{SO-VITS-SVC}
+
+LaTeX Warning: Citation `SO-VITS-SVC' on page 2 undefined on input line 193.
+
+\citation{YourTTS}
+
+LaTeX Warning: Citation `YourTTS' on page 2 undefined on input line 193.
+
+\bibcite{HuBERT}{1}
+\bibcite{SO-VITS-SVC}{2}
+(load cache: extra_lmmono10-regular.luc)
+\bibcite{YourTTS}{3}
+
+
+[2
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces {図 1}: 
+HuBERTアプローチは、k-meansクラスタリングを1回または複数
+回繰り返すことで生成されたマスクされたフレーム（図中
+の \( y_2, y_3, y_4 \)）の隠れクラスタ割り当てを予測する。}}
+{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}結果}{2}{}\prote
+cted@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces }}{2}{}\pr
+otected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces }}{2}{}\pr
+otected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces }}{2}{}\pr
+otected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}実験の考察}{2
+}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}課題と展望}{2}{}\p
+rotected@file@percent }
+<./img/HuBERT.png>]
+\gdef \@abspage@last{2}
+(./manuscript.aux))
 
 Here is how much of LuaTeX's memory you used:
- 7222 strings out of 475518
- 477797,953878 words of node,token memory allocated
- 1320 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 324 attribute, 55 glue_sp
-ec, 41 attribute_list, 1 write, 13 user_defined nodes
-   avail lists: 1:35,2:110376,3:333,4:8526,5:837,6:81,7:7982,8:33,9:8961,10:27,1
-1:117
- 30052 multiletter control sequences out of 65536+600000
- 79 fonts using 50039679 bytes
- 125i,9n,128p,1870b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/te
-xlive/2024/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><c:/texlive/
+ 5556 strings out of 475518
+ 244639,662416 words of node,token memory allocated
+ 1272 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 2 glue, 4 kern, 1 glyph, 302 attribute, 55 glue_sp
+ec, 39 attribute_list, 1 write, 13 user_defined nodes
+   avail lists: 1:19,2:71837,3:645,4:480,5:269,6:74,7:8451,8:47,9:3029,10:24,11:
+122
+ 28411 multiletter control sequences out of 65536+600000
+ 89 fonts using 61892079 bytes
+ 125i,9n,128p,1875b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
+xlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/
 2024/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2024/tex
-mf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2024/texmf-di
-st/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2024/t
-exmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><c:/texlive/2024/texmf-d
-ist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2024/texmf-dist/f
-onts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2024/texm
-f-dist/fonts/opentype/public/lm/lmroman17-regular.otf><c:/texlive/2024/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive
-/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on paper.pdf (11 pages, 243318 bytes).
+mf-dist/fonts/opentype/public/lm/lmsans10-regular.otf><c:/texlive/2024/texmf-dis
+t/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2024/te
+xmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf><c:/texlive/2024/texmf-di
+st/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2024/texmf-dist/fo
+nts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2024/texmf-dist/fonts/o
+pentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2024/texmf-dist
+/fonts/opentype/public/lm/lmroman17-regular.otf><c:/texlive/2024/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/t
+exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb>
+Output written on manuscript.pdf (2 pages, 225108 bytes).
 
-PDF statistics: 141 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+PDF statistics: 119 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
